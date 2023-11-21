@@ -1,0 +1,11 @@
+framework module StagingWalleeSdk {
+  umbrella header "StagingWalleeSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module StagingWalleeSdk.Swift {
+  header "StagingWalleeSdk-Swift.h"
+  requires objc
+}
